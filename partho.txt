@@ -1,0 +1,9 @@
+studies(jon,cse135).
+studies(man,cse136).
+studies(aun,cse137).
+
+teaches(rafi,cse135).
+teaches(riyad,cse136).
+teaches(mama,cse137).
+
+professor(X,Y) :- teaches(X,C),studies(Y,C).
